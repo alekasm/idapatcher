@@ -14,6 +14,7 @@ int main()
 	if (__argc != 4)
 	{
 		std::cout << "Usage: <ida .dif file> <.exe file> <revert>" << std::endl;
+		return 0;
 	}
 
 	std::string diff_fname(__argv[1]);
